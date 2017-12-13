@@ -13,6 +13,8 @@
 		E993AF691FDFB66100C21CC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E993AF671FDFB66100C21CC1 /* Main.storyboard */; };
 		E993AF6B1FDFB66100C21CC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E993AF6A1FDFB66100C21CC1 /* Assets.xcassets */; };
 		E993AF6E1FDFB66100C21CC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E993AF6C1FDFB66100C21CC1 /* LaunchScreen.storyboard */; };
+		E993AF771FDFB78A00C21CC1 /* ZQContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E993AF761FDFB78A00C21CC1 /* ZQContentCell.m */; };
+		E993AF7A1FDFCD7B00C21CC1 /* ZQHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E993AF791FDFCD7B00C21CC1 /* ZQHeaderCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		E993AF6A1FDFB66100C21CC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E993AF6D1FDFB66100C21CC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E993AF6F1FDFB66100C21CC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E993AF751FDFB78A00C21CC1 /* ZQContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQContentCell.h; sourceTree = "<group>"; };
+		E993AF761FDFB78A00C21CC1 /* ZQContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQContentCell.m; sourceTree = "<group>"; };
+		E993AF781FDFCD7B00C21CC1 /* ZQHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQHeaderCell.h; sourceTree = "<group>"; };
+		E993AF791FDFCD7B00C21CC1 /* ZQHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQHeaderCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				E993AF621FDFB66100C21CC1 /* AppDelegate.m */,
 				E993AF641FDFB66100C21CC1 /* ViewController.h */,
 				E993AF651FDFB66100C21CC1 /* ViewController.m */,
+				E993AF751FDFB78A00C21CC1 /* ZQContentCell.h */,
+				E993AF761FDFB78A00C21CC1 /* ZQContentCell.m */,
+				E993AF781FDFCD7B00C21CC1 /* ZQHeaderCell.h */,
+				E993AF791FDFCD7B00C21CC1 /* ZQHeaderCell.m */,
 				E993AF671FDFB66100C21CC1 /* Main.storyboard */,
 				E993AF6A1FDFB66100C21CC1 /* Assets.xcassets */,
 				E993AF6C1FDFB66100C21CC1 /* LaunchScreen.storyboard */,
@@ -149,6 +159,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E993AF7A1FDFCD7B00C21CC1 /* ZQHeaderCell.m in Sources */,
+				E993AF771FDFB78A00C21CC1 /* ZQContentCell.m in Sources */,
 				E993AF661FDFB66100C21CC1 /* ViewController.m in Sources */,
 				E993AF631FDFB66100C21CC1 /* AppDelegate.m in Sources */,
 				E993AF601FDFB66100C21CC1 /* main.m in Sources */,
